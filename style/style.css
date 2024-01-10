@@ -6,43 +6,36 @@
     text-decoration: none;
     font-family:'Courier New', Courier, monospace
 }
-header{
-    background-color: beige;
+body{
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20240102/pngtree-vector-illustration-of-a-restaurant-menu-design-with-textured-paper-background-image_13914732.png');
+    background-size: cover;
 }
 nav{
-    display: flex;
-    text-align: center;
+    /* background-color: blue; */
     align-items: center;
-    justify-content: space-between;
-    margin: 20px 100px;
+    text-align: center;
+}
+nav li{
+    margin: 20px;
+    padding: 15px;
     
 }
-nav ul{
-    display: flex;
-    text-align: center;
-}
-ul li{
-    text-align: center;
-    margin-left:80px ;
-}
 li a{
-    color:orange;
-    font-weight: 600;
-    border: 2px solid black;
-    border-radius: 8px;
-    padding: 8px;
-    background-color: lightblue;
+    color:aliceblue;
+    font-size: 30px;
+    border:3px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 20px;
+    background-color: tomato;
 }
-li a:hover{
-    color:white
+a:hover{
+    color:black;
+    background-color: aliceblue;
+    border: 3px solid tomato;
 }
-img{
-    width: 150px;
-}
-.resturent{
-    width: 40vw;
-    margin-left:200px
-}
+
+
 
 
 /* manu style */
